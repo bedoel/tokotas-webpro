@@ -1,0 +1,40 @@
+.bgauth-green{
+    background-color: #22747d;
+}
+.btn-green{
+    background-color: #22747d;
+    color: #fff;
+    border-radius: 30px;
+}
+.btn-green:hover{
+    background-color: #2d939e;
+    color: #fff;
+}
+.img-fluid{
+    border-radius: 5px;
+
+}
+.hero-img-wrap {
+    position: relative; }
+    .hero-img-wrap img {
+      position: relative;
+      top: 0px;
+      right: 0px;
+      z-index: 2;
+      width: 250%;
+      left: -20px; }
+      @media (min-width: 768px) {
+        .hero-img-wrap img {
+          right: 0px;
+          left: 0px; } }
+      @media (min-width: 992px) {
+        .hero-img-wrap img {
+          left: 35px;
+          top: 50px;
+          position: absolute;
+          right: 0px; } }
+      @media (min-width: 1200px) {
+        .hero-img-wrap img {
+          left: 35px;
+          top: 50px;
+          right: 0px; } }
